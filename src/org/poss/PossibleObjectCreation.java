@@ -15,6 +15,10 @@ public class PossibleObjectCreation extends Possible2{
 		System.out.println("Overridden Method 3");
 		super.parMethod3();
 	}
+	private void methodspecial() {
+		System.out.println("Special Method");
+
+	}
 	
 	public static void main(String[] args) {
 		
@@ -24,6 +28,7 @@ public class PossibleObjectCreation extends Possible2{
 		p.parMethod1();
 		p.parMethod2();
 		p.parMethod3();
+		p.methodspecial();
 		
 		Possible2 p1=new Possible2(); //Using Parent-Parent Class Object Creation
 		p1.parMethod1();
